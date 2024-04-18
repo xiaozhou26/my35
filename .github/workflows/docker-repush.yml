@@ -1,6 +1,6 @@
 name: Pull, Retag, and Push Docker Image
 
-on:
+on: workflow_dispatch
   push:
     branches:
       - main  # Set this to the branch that should trigger this action
